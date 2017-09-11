@@ -17,3 +17,5 @@
 ## Tips
 - git操作需要提前配置好.gitignore文件，避免将node_modules模块传上去
 - 如果想定制自己的命令，每次保存后都需要重新npm install -g，以免指令失效
+- ac 不加commit默认是[+]just add
+- pp 不加分支默认是master分支
