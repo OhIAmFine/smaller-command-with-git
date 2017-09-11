@@ -1,0 +1,16 @@
+{
+  "name": "LittleGitShortKeyCommandLine",
+  "version": "1.0.0",
+  "description": "简化的git指令",
+  "author": "OhIAmFine",
+  "license": "ISC",
+  "bin": {
+    "ct": "gitCloneAndTo.js",
+    "ac": "gitAddAndCommit.js",
+    "pp": "gitPullAndPush.js",
+    "acpp": "gitAddCommitPullPush.js"
+  },
+  "dependencies": {
+    "commander": "^2.11.0"
+  }
+}
